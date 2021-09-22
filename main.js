@@ -55,3 +55,39 @@ alert(soma(10,3));*/
 }
 
 alert(setReplace("vai Japão","Japão", "USA"));*/
+
+/*function clicou(){
+    alert("Obrigado por clicar!");
+}*/
+
+
+/*function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+}
+/*function redirecionar(){
+    window.open("https://www.youtube.com/watch?v=rIS3hZ3zf4Q/");    
+    window.location.href = "https://www.youtube.com/watch?v=rIS3hZ3zf4Q"
+}*/
+
+/*function omouse(){
+    document.getElementById("usar_o_mouse").innerHTML = "obrigado por";
+    //alert("Tocar texto");
+}
+function voltar(){
+    document.getElementById("usar_o_mouse").innerHTML = "Passe o mouse aqui!";
+}*/
+
+function omouse(elemento){
+    elemento.innerHTML = "Obrigado por clicar!";
+}
+function voltar(elemento){
+    elemento.innerHTML = "Obrigado por clicar!";
+}
+
+function load(){
+    alert("Pagína carregada!")
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
